@@ -10,8 +10,8 @@ a {
 }
 
 .App {
-  max-width: 700px;
-  margin: 50px auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .App-logo {
