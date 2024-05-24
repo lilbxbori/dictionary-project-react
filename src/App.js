@@ -1,3 +1,4 @@
+import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,7 +8,7 @@ function App() {
       {/* <style>{'body { background: linear-gradient(to top, #09203f 0%, #537895 100%); background-attachment: fixed; }'}</style> */}
       <div className="App-container p-4">
         <header className="App-header pb-3">
-          <h1>Dictionary App</h1>
+        <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
           <Dictionary />

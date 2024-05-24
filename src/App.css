@@ -1,6 +1,23 @@
+body {
+  background: pink;
+}
+
+a { 
+  color: #52a6e7;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+
 .App {
   max-width: 700px;
   margin: 50px auto;
+}
+
+.App-logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -12,5 +29,5 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
-
+  font-weight: 500;
 }

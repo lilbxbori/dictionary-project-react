@@ -26,7 +26,9 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <div className="Dictionary-search text-center">
+       
         <form onSubmit={handleSearch}>
+        <h1>Would you like to search for a definition?</h1>
           <input
             type="search"
             autoFocus={true}
@@ -34,7 +36,7 @@ export default function Dictionary() {
             onChange={search}
           />
           <div className="hint">
-            suggested words: authentic, ambiguous, conundrum, etc...
+            suggested words: authentic, amazing, peace, etc...
           </div>
         </form>
       </div>
